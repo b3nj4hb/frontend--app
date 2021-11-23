@@ -1,0 +1,19 @@
+
+a:hover{
+  background-color: rgb(12, 117, 65);
+  color: white;
+}
+a{
+  border-bottom: 0.0001rem solid rgb(217, 250, 234)!important;
+  color: rgb(12, 117, 65);
+  background-color: rgb(248, 249, 249);
+}
+.btn-group > ul > li > a:hover{
+  background-color: rgb(12, 117, 65);
+  color: white;
+}
+.active {
+  background-color: rgb(12, 117, 65);
+  color: white;
+}
+

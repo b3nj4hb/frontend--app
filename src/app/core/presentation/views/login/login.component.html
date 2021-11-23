@@ -1,0 +1,24 @@
+<div class="container-fluid vh-50" style="margin-top:200px">
+            <div class="" style="margin-top:200px">
+                <div class="rounded d-flex justify-content-center">
+                    <div class="col-md-4 col-sm-12 shadow-lg p-5 bg-light">
+                        <div class="text-center">
+                            <h3 class="text-success">Sign In</h3>
+                        </div>
+                        <form method="post">
+                            <div class="p-4">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-success text-light" ><i class="far fa-user"></i></span>
+                                    <input [(ngModel)] = "usuario.username" type="text" class="form-control" placeholder="Username" name="username" autofocus>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-success text-light"><i class="fas fa-key"></i></span>
+                                    <input type="password" [(ngModel)] = "usuario.password" class="form-control" placeholder="password" name="password">
+                                </div>
+                                 <input (click)="login()" type="submit" class="btn btn-success text-center mt-2"  value="Login">                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>

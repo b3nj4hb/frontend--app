@@ -1,0 +1,3 @@
+<div *ngFor="let menu of listMenu" >
+  <a routerLink="{{menu.url}}" class="list-group-item list-group-item-action px-5" routerLinkActive="active"><i class="{{menu.icono}}"></i> {{menu.title}}</a>
+</div>
